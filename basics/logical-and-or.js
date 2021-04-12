@@ -1,5 +1,5 @@
 let guest1 = false
-let guest2 = true
+let guest2 = false
 
 if (guest1 && guest2) {
     console.log('set 2 places for our guests');
