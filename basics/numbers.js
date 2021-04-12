@@ -1,7 +1,7 @@
-let studentScore = 18
-let max = 20
+// let studentScore = 18
+// let max = 20
 
-console.log(`your score is ${100*(studentScore/max)}%`)
+// console.log(`your score is ${100*(studentScore/max)}%`)
 
 let f = 32
 let c = (f - 32)*(5/9)
