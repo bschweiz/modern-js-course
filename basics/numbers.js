@@ -8,3 +8,7 @@ let c = (f - 32)*(5/9)
 let k = (f + 459.67) * 5/9
 
 console.log(f,c,k)
+
+let isFreezing = f < 32
+
+console.log(isFreezing)
