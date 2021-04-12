@@ -3,7 +3,7 @@
 
 // console.log(`your score is ${100*(studentScore/max)}%`)
 
-let f = 32
+let f = 28
 let c = (f - 32)*(5/9)
 let k = (f + 459.67) * 5/9
 
