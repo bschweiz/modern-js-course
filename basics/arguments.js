@@ -13,8 +13,8 @@ let score = getScore()
 console.log(score);
 
 let getTip = (total, tipPercent = .2) => {
-    return total * tipPercent
+    
+    return `A $${total * tipPercent} tip on ${total}`
 }
 
 console.log(getTip(100))
-console.log(getTip(100, .15))
