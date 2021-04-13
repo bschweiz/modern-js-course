@@ -3,21 +3,23 @@
 //  you got  a (letter grade) (percentage)
 
 let gradeCalc = (student, max) => {
-    let percentage = student/max 
-    let letter
+    let percentage = student/max * 100
+    let letter = 'F'
+    
+        if (percentage >= 90) {
+            letter = 'A' 
+        } else if (percentage >= 80) {
+            letter = 'B' 
+        } else if (percentage >= 70) {
+            etter = 'C' 
+        } else if (percentage >= 60) {
+            letter = 'D'
+        }
 
-    if (percentage >= 90) {
-        let letter = 'A' 
-    } else if (percentage >= 80) {
-        let letter = 'B' 
-    } else if (percentage >= 70) {
-        
-        let letter = 'C' 
-    } else if (percentage >= 60) {
-        let letter = 'D'
-    }
+    
+
 
     console.log(`You got a ${letter} (${percentage}%)`)
 }
 
-gradeCalc(67,75)
+gradeCalc(7,75)
