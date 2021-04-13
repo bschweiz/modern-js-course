@@ -11,7 +11,7 @@ let gradeCalc = (student, max) => {
         } else if (percentage >= 80) {
             letter = 'B' 
         } else if (percentage >= 70) {
-            etter = 'C' 
+            letter = 'C' 
         } else if (percentage >= 60) {
             letter = 'D'
         }
