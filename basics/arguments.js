@@ -16,4 +16,5 @@ let getTip = (total, tipPercent = .2) => {
     return total * tipPercent
 }
 
-console.logt(getTip(100))
+console.log(getTip(100))
+console.log(getTip(100, .15))
