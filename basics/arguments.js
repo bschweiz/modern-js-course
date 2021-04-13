@@ -12,7 +12,7 @@ let score = getScore()
 
 console.log(score);
 
-let getTip = (total, tipPercent = .2) {
+let getTip = (total, tipPercent = .2) => {
     return total * tipPercent
 }
 
