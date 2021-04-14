@@ -5,3 +5,6 @@ let thisBook = {
 }
 
 console.log(`${thisBook.title} by ${thisBook.author}`);
+
+thisBook.title = 'Animal Farm'
+console.log(`${thisBook.title} by ${thisBook.author}`);
