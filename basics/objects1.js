@@ -20,3 +20,19 @@ let getSummary = (book) => {
 }
 
 getSummary(thatBook)
+
+//  temp conversions:
+let f = 50
+let c = (f - 32) * 5/94
+let k = (f + 59.67) * 5/9
+
+// function to take f and return object with all 3 
+
+let convert = (degF) => {
+    return {
+        f: degF,
+        c: (f - 32) * 5/9,
+        k: (f + 59.67) * 5/9
+    }
+}
+console.log(convert(64));
