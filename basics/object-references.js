@@ -8,7 +8,7 @@ let addExpense = (account, amount) => {
     account.expenses = account.expenses + amount
 }
 let addIncome = (income, amount) => {
-    income.expenses = income.expenses + amount
+    income.income = income.income + amount
 }
 
 let resetAccount = (account) => {
@@ -21,4 +21,5 @@ let getAcctSummary = (account) => {
     return `Account for ${account.name}, balance of ${balance}, ${account.income} in income. Expenses of ${myAcct.expenses}`
 } 
 addExpense(myAcct, 3.03)
+addIncome(myAcct, 3.04)
 console.log(getAcctSummary(myAcct))
